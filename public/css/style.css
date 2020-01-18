@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar {
+    height: 58px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0px 15px;
+    z-index: 10;
+}
+
+.brand {
+    width: 150px;
+}
+
+.chef-signup {
+    color: white !important;
+    text-decoration: none !important;
+    border: 1px solid #8d006b;
+    padding: 8px;
+    border-radius: 50px;
+    background: #8d006b;
+    transition: 0.2s easeall;
+}
+
+.chef-signup:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.brand img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.main-drawer {
+    color: #8d006b;
+}
+
+.main-banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10rem 0rem;
+}
+
+.banner-title {
+    color: #8d006b;
+    margin-bottom: 0px;
+    font-size: 32px;
+}
+
+.banner-subtext {
+    color: #666666;
+    margin-bottom: 15px;
+}
+
+.submit-mail {
+    display: flex;
+}
+
+.submit-mail-btn {
+    border-radius: 50%;
+    border: 1px solid #8d006b;
+    margin-left: 10px;
+    display: flex;
+    color: #8d006b;
+    background-color: #ffffff;
+    cursor: pointer;
+    height: 40px;
+    width: 45px;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s ease all;
+}
+
+.submit-mail-btn:hover {
+    background-color: #8d006b !important;
+    color: white
+}
+
+
+#snackbar {
+    visibility: hidden;
+    min-width: 250px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    border-radius: 2px;
+    padding: 10px;
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    bottom: 15px;
+    transform: translate(-50%, 0%);
+}
+
+#snacker {
+    visibility: hidden;
+    min-width: 250px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px;
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    bottom: 15px;
+    transform: translate(-50%, 0%);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    font-weight: 100;
+}
+
+.show-snack {
+    visibility: visible !important;
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 8.5s;
+    animation: fadein 0.5s, fadeout 0.5s 8.5s;
+}
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .banner-logo {
+        width: 50%;
+    }
+
+    .banner-title {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .submit-mail {
+        width: 86%;
+        flex-direction: column;
+        align-items: center;
+        height: 93px;
+        justify-content: space-between;
+    }
+
+    .submit-mail-btn {
+        border-radius: 3px;
+        width: 80px;
+    }
+}
+
+/* Animations to fade the snackbar in and out */
+@-webkit-keyframes fadein {
+    from {
+        bottom: 0;
+        opacity: 0;
+    }
+
+    to {
+        bottom: 15px;
+        opacity: 1;
+    }
+}
+
+@keyframes fadein {
+    from {
+        bottom: 0;
+        opacity: 0;
+    }
+
+    to {
+        bottom: 15px;
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeout {
+    from {
+        bottom: 15px;
+        opacity: 1;
+    }
+
+    to {
+        bottom: 0;
+        opacity: 0;
+    }
+}
+
+@keyframes fadeout {
+    from {
+        bottom: 15px;
+        opacity: 1;
+    }
+
+    to {
+        bottom: 0;
+        opacity: 0;
+    }
+}
+
+/* ANIMATIONS ================ */
+@keyframes inputHighlighter {
+    from {
+        background: #8d006b;
+    }
+
+    to {
+        width: 0;
+        background: transparent;
+    }
+}
