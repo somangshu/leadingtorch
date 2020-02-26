@@ -19,7 +19,7 @@ export default class Contact extends Component {
 						<h2 className="font-weight-light text-left h1 px-5">Contact us</h2>
 					</div>
 					<div className="divider">
-						<svg width="100%" height="96px" style={{ fill: "#ffffff" }} viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none" datasrc="assets/images/divider-2.svg">
+						<svg width="100%" height="96px" style={{ fill: "#fafafa" }} viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none" datasrc="assets/images/divider-2.svg">
 							<path d="M0,0 C16.6666667,66 33.3333333,99 50,99 C66.6666667,99 83.3333333,66 100,0 L100,100 L0,100 L0,0 Z"></path>
 						</svg>
 					</div>
@@ -28,7 +28,7 @@ export default class Contact extends Component {
 					<p className="text-left lead text-dark">Are you interested in our services? Or, do you have any query? Leading Torch won’t disappoint anyone. We are here to help you in every possible way. Connect with us now.</p>
 					<h4 className="my-4">We are located at:</h4>
 					<div className="row justify-content-start">
-						<div className="col-12 col-lg-5 col-md-5">
+						<div className="col-12 col-lg-5 col-md-5 d-flex">
 							<div className="card card-sm card-body flex-row align-items-center mb-4">
 								<img src="/images/usa.png" alt="texas" />
 								<div className="ml-3">
@@ -37,7 +37,7 @@ export default class Contact extends Component {
 							</div>
 						</div>
 
-						<div className="col-12 col-lg-5 col-md-5">
+						<div className="col-12 col-lg-5 col-md-5 d-flex">
 							<div className="card card-sm card-body flex-row align-items-center mb-4">
 								<img src="/images/india.png" width="100px" alt="india" />
 								<div className="ml-3">

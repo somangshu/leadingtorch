@@ -19,7 +19,7 @@ export default class Team extends Component {
                         </div>
                     </div>
                     <div className="row mb-3">
-                        <div className="col-xl-3 col-lg-4 col-md-6">
+                        <div className="col-xl-3 col-lg-4 col-md-6 d-flex">
                             <div className="card card-lg card-body align-items-center">
                                 <span className="badge badge-primary badge-top">Founder</span>
                                 <img src="/images/female-4.jpg" alt="Helena Price" width="100px" className="rounded-circle mb-3" />
@@ -27,63 +27,63 @@ export default class Team extends Component {
                                 <span className="h6 text-muted text-center">CEO</span>
                             </div>
                         </div>
-                        <div className="col-xl-3 col-lg-4 col-md-6">
+                        <div className="col-xl-3 col-lg-4 col-md-6 d-flex">
                             <div className="card card-lg card-body align-items-center">
                                 <img src="/images/female-4.jpg" alt="Helena Price" width="100px" className="rounded-circle mb-3" />
                                 <h5 className="mb-0">Jayabharatha</h5>
                                 <span className="h6 text-muted text-center">VP Cloud/Application Solutions</span>
                             </div>
                         </div>
-                        <div className="col-xl-3 col-lg-4 col-md-6">
+                        <div className="col-xl-3 col-lg-4 col-md-6 d-flex">
                             <div className="card card-lg card-body align-items-center">
                                 <img src="/images/female-4.jpg" alt="Helena Price" width="100px" className="rounded-circle mb-3" />
                                 <h5 className="mb-0">Sashidhar Seelaboyina</h5>
                                 <span className="h6 text-muted text-center">VP Data Solutions</span>
                             </div>
                         </div>
-                        <div className="col-xl-3 col-lg-4 col-md-6">
+                        <div className="col-xl-3 col-lg-4 col-md-6 d-flex">
                             <div className="card card-lg card-body align-items-center">
                                 <img src="/images/female-4.jpg" alt="Helena Price" width="100px" className="rounded-circle mb-3" />
                                 <h5 className="mb-0">Sai Belaganti</h5>
                                 <span className="h6 text-muted text-center">Enterprise Data Architect</span>
                             </div>
                         </div>
-                        <div className="col-xl-3 col-lg-4 col-md-6">
+                        <div className="col-xl-3 col-lg-4 col-md-6 d-flex">
                             <div className="card card-lg card-body align-items-center">
                                 <img src="/images/team/radha.png" alt="Helena Price" width="100px" className="rounded-circle mb-3" />
                                 <h5 className="mb-0">Radha Bavanari</h5>
                                 <span className="h6 text-muted text-center">Offshore Delivery Head</span>
                             </div>
                         </div>
-                        <div className="col-xl-3 col-lg-4 col-md-6">
+                        <div className="col-xl-3 col-lg-4 col-md-6 d-flex">
                             <div className="card card-lg card-body align-items-center">
                                 <img src="/images/team/ravindra.png" alt="Helena Price" width="100px" className="rounded-circle mb-3" />
                                 <h5 className="mb-0 text-center">Ravindra Babu Bommineni</h5>
                                 <span className="h6 text-muted text-center">Delivery Manager</span>
                             </div>
                         </div>
-                        <div className="col-xl-3 col-lg-4 col-md-6 aos-init">
+                        <div className="col-xl-3 col-lg-4 col-md-6 d-flex aos-init">
                             <div className="card card-lg card-body align-items-center">
                                 <img src="/images/team/girivardhan.png" alt="Helena Price" width="100px" className="rounded-circle mb-3" />
                                 <h5 className="mb-0">Giri Vardhan Kumar</h5>
                                 <span className="h6 text-muted text-center">Application/Technical Manager</span>
                             </div>
                         </div>
-                        <div className="col-xl-3 col-lg-4 col-md-6">
+                        <div className="col-xl-3 col-lg-4 col-md-6 d-flex">
                             <div className="card card-lg card-body align-items-center">
                                 <img src="/images/team/satyanarayan.png" alt="Helena Price" width="100px" className="rounded-circle mb-3" />
                                 <h5 className="mb-0">Satyanarayana MD</h5>
                                 <span className="h6 text-muted text-center">Offshore Operations Head</span>
                             </div>
                         </div>
-                        <div className="col-xl-3 col-lg-4 col-md-6">
+                        <div className="col-xl-3 col-lg-4 col-md-6 d-flex">
                             <div className="card card-lg card-body align-items-center">
                                 <img src="/images/team/razi.png" alt="Helena Price" width="100px" className="rounded-circle mb-3" />
                                 <h5 className="mb-0">Razi Ahmed</h5>
                                 <span className="h6 text-muted text-center">Offshore Business Development Lead</span>
                             </div>
                         </div>
-                        <div className="col-xl-3 col-lg-4 col-md-6 aos-init">
+                        <div className="col-xl-3 col-lg-4 col-md-6 d-flex">
                             <div className="card card-lg card-body align-items-center">
                                 <img src="/images/female-4.jpg" alt="Helena Price" width="100px" className="rounded-circle mb-3" />
                                 <h5 className="mb-0">Prabhakar Ranga</h5>

@@ -37,7 +37,7 @@ export default class Header extends React.Component {
                         modalElementClass="drawer" >
                         <ul className="navbar-nav ml-auto mt-2 mt-lg-0">
                             <li className="nav-item">
-                                <Link to="/services" onClick={this.toggle} className="nav-link">Services</Link>
+                                <Link to="/services" onClick={this.toggle} className="nav-link">What we do</Link>
                             </li>
                             <li className="nav-item">
                                 <Link to="/about-us" onClick={this.toggle} className="nav-link">About Us</Link>
@@ -53,7 +53,7 @@ export default class Header extends React.Component {
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav ml-auto mt-2 mt-lg-0">
                             <li className="nav-item">
-                                <Link to="/services" className="nav-link">Services</Link>
+                                <Link to="/services" className="nav-link">What we do</Link>
                             </li>
                             <li className="nav-item">
                                 <Link to="/about-us" className="nav-link">About Us</Link>

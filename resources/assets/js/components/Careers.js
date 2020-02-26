@@ -14,47 +14,159 @@ export default class Careers extends Component {
     render() {
         return (
             <div>
-                <div className="position-relative contact-hero" style={{ backgroundImage: 'url("/images/hero7.jpg")', backgroundAttachment: "unset" }}>
-                    <div className="col-12 py-4 px-3 text-center my-5">
-                        <h2 className="font-weight-light text-left h1 px-5">Work with us</h2>
+                <div className="container">
+                    <div className="row align-items-center">
+                        <div className="col-lg-5 col-md-5 col-12">
+                            <h2 className="font-weight-light text-center px-4 py-2">The future depends on what you do today <br /> - Mahatma Gandhi</h2>
+                        </div>
+                        <div className="col-lg-7 col-md-7 col-12">
+                            <img src="/images/careers.jpg" className="w-100" />
+                        </div>
                     </div>
-                    <div className="divider">
-                        <svg width="100%" height="96px" style={{ fill: "#ffffff" }} viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none" datasrc="assets/images/divider-2.svg">
+                </div>
+
+                <div>
+                    <div className="position-relative divider">
+                        <svg width="100%" height="96px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none" datasrc="assets/images/divider-2.svg">
                             <path d="M0,0 C16.6666667,66 33.3333333,99 50,99 C66.6666667,99 83.3333333,66 100,0 L100,100 L0,100 L0,0 Z"></path>
                         </svg>
                     </div>
                 </div>
-                <div className="container my-5">
-                    <p className="text-left lead text-dark">Leading Torch has continuously been in trend since its entry into the industry. All this is because of our team members that stood for the company in every possible way. Working with Leading Torch will be fun as well as challenging. We always hire the best talents, nurture them, and make them the best professionals in the industry. </p>
-                    <div className="row justify-content-around">
-                        <img className="col-12 col-lg-5 col-md-5 mb-3 img-fluid img-thumbnail p-1 rounded" src="/images/comp/carrier1.jpg" />
-                        <img className="col-12 col-lg-5 col-md-5 mb-3 img-fluid img-thumbnail p-1 rounded" src="/images/comp/carrier2.jpg" />
-                    </div>
-                    <h4 className="my-4">We have the following openings in our company:</h4>
-                    <ul>
-                        <li className="lead">Full Stack Developer</li>
-                        <li className="lead">DevOps Engineer</li>
-                        <li className="lead">Data Engineer</li>
-                        <li className="lead">Cloud Architect</li>
-                        <li className="lead">Test Automation Engineer</li>
-                        <li className="lead">AWS Engineer</li>
-                        <li className="lead">Azure Engineer</li>
-                        <li className="lead">MDM Developer</li>
-                    </ul>
-                    <h4 className="my-4">To apply, Email us at:</h4>
-                    <div className="row justify-content-start">
-                        <div className="col-12 col-lg-5 col-md-5">
-                            <div className="card card-sm card-body flex-row align-items-center mb-4">
-                                <img src="/images/hr.png" height="64px" width="64px" alt="email support" />
-                                <div className="ml-3">
-                                    <h6 className="mb-2 text-center">recruitement@leadingtorch.com</h6>
-                                    <h5 className="text-center">OR</h5>
-                                    <h6 className="mb-0 text-center">razi.ahmed@leadingtorch.com</h6>
+                {/* why this company section */}
+                <section className="bg-white why-company pb-3">
+                    <div className="container">
+                        <div className="row mb-4">
+                            <div className="col">
+                                <h3 className="h2 mt-4">Why Leading Torch?</h3>
+                            </div>
+                        </div>
+                        <div className="row justify-content-center">
+                            <div className="col-sm-6 col-lg-4 d-flex">
+                                <div className="card card-sm card-body flex-row align-items-center">
+                                    <img src="/images/whyus/data.png" alt="Data" />
+                                    <div className="ml-3">
+                                        <h6 className="mb-0">Innovative enterprise solutions from data storing to securing</h6>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="col-sm-6 col-lg-4 d-flex">
+                                <div className="card card-sm card-body flex-row align-items-center">
+                                    <img src="/images/whyus/goal.png" alt="Growth" />
+                                    <div className="ml-3">
+                                        <h6 className="mb-0">Developing quality software solutions for your business growth.</h6>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="col-sm-6 col-lg-4 d-flex">
+                                <div className="card card-sm card-body flex-row align-items-center">
+                                    <img src="/images/whyus/team.png" height="64" width="64" alt="Team" />
+                                    <div className="ml-3">
+                                        <h6 className="mb-0">Professional team to handle our services.</h6>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="col-sm-6 col-lg-4 d-flex">
+                                <div className="card card-sm card-body flex-row align-items-center">
+                                    <img src="/images/whyus/time.png" height="64" width="64" alt="Time" />
+                                    <div className="ml-3">
+                                        <h6 className="mb-0">On-time delivery of projects.</h6>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="col-sm-6 col-lg-4 d-flex">
+                                <div className="card card-sm card-body flex-row align-items-center">
+                                    <img src="/images/whyus/save.png" height="64" width="64" alt="Savings" />
+                                    <div className="ml-3">
+                                        <h6 className="mb-0">Cost-effective services with perfect efficiency</h6>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
+                </section>
+                <section className="m-content-wi m-content-wi--right ">
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-12 col-sm-5 m-content-wi__col-left">
+                                <header className="m-content-wi__header scroll-animation scroll-animation__ease-in-from-bottom active">
+                                    <div className="scroll-animation scroll-animation__ease-in-from-bottom active">
+                                        <h3 className="font-weight-light h4">
+                                            Leading Torch has continuously been in trend since its entry into the industry. All this is because of our team members that stood for the company in every possible way. Working with Leading Torch will be fun as well as challenging. We always hire the best talents, nurture them, and make them the best professionals in the industry.
+                                        </h3>
+                                    </div>
+                                </header>
+                            </div>
+                            <div className="col-12 col-sm-7">
+                                <div className="m-content-wi__image" style={{ left: '2rem' }}>
+                                    <img className="b-lazy b-loaded" alt="airplane" src="/images/comp/carrier1.jpg" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section className="m-content-wi m-content-wi--left">
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-12 col-sm-7">
+                                <div className="m-content-wi__image" style={{ right: '2rem' }}>
+                                    <img className="b-lazy b-loaded" alt="airplane" src="/images/comp/carrier2.jpg" />
+                                </div>
+                            </div>
+                            <div className="col-12 col-sm-5 m-content-wi__col-left">
+                                <header className="m-content-wi__header scroll-animation scroll-animation__ease-in-from-bottom active">
+                                    <div className="scroll-animation scroll-animation__ease-in-from-bottom active">
+                                        <h3 className="a-title-40">Join our team</h3>
+                                    </div>
+                                    <div className="mt-4">
+                                        <div className="row row-cols-2 pb-3 m-content-wi__intro">
+                                            <div className="col mb-3">
+                                                <h5>Full Stack Developer</h5>
+                                                <h5 className="font-weight-light text-muted">Development</h5>
+                                            </div>
+                                            <div className="col mb-3">
+                                                <h5>DevOps Engineer</h5>
+                                                <h5 className="font-weight-light text-muted">Cloud</h5>
+                                            </div>
+                                            <div className="col mb-3">
+                                                <h5>Data Engineer</h5>
+                                                <h5 className="font-weight-light text-muted">Analytics</h5>
+                                            </div>
+                                            <div className="col mb-3">
+                                                <h5>Cloud Architect</h5>
+                                                <h5 className="font-weight-light text-muted">Cloud</h5>
+                                            </div>
+                                            <div className="col mb-3">
+                                                <h5>Test Automation Engineer</h5>
+                                                <h5 className="font-weight-light text-muted">QA</h5>
+                                            </div>
+                                            <div className="col mb-3">
+                                                <h5>AWS Engineer</h5>
+                                                <h5 className="font-weight-light text-muted">Cloud</h5>
+                                            </div>
+                                            <div className="col mb-3">
+                                                <h5>Azure Engineer</h5>
+                                                <h5 className="font-weight-light text-muted">Cloud</h5>
+                                            </div>
+                                            <div className="col mb-3">
+                                                <h5>MDM Developer</h5>
+                                                <h5 className="font-weight-light text-muted">Development</h5>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <p className="mb-2 h4">To apply, email us at:</p>
+                                            <p className="mb-1 font-weight-light h5">recruitement@leadingtorch.com,</p>
+                                            <p className="mb-0 font-weight-light h5">razi.ahmed@leadingtorch.com</p>
+                                        </div>
+                                    </div>
+                                </header>
+                            </div>
+                        </div>
+                    </div>
+                </section>
             </div>
         );
     }

@@ -10,11 +10,11 @@ export default class Footer extends Component {
 
 	render() {
 		return (
-			<div style={{ backgroundColor: "#375ABB" }}>
+			<div className="bg-primary">
 				<div className="px-3 pt-2">
 					<h4 className="py-3 text-white">Our offices:</h4>
 					<div className="row justify-content-start">
-						<div className="col-12 col-lg-5 col-md-5">
+						<div className="col-12 col-lg-5 col-md-5 d-flex">
 							<div className="card card-sm card-body flex-row align-items-center mb-4 box-shadow-ak">
 								<img src="/images/usa.png" width="64px" alt="texas" />
 								<div className="ml-3">
@@ -23,7 +23,7 @@ export default class Footer extends Component {
 							</div>
 						</div>
 
-						<div className="col-12 col-lg-5 col-md-5">
+						<div className="col-12 col-lg-5 col-md-5 d-flex">
 							<div className="card card-sm card-body flex-row align-items-center mb-4 box-shadow-ak">
 								<img src="/images/india.png" width="64px" alt="india" />
 								<div className="ml-3">

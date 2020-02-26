@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import Services from './Services';
+import { Carousel } from 'react-responsive-carousel';
 
 export default class Home extends Component {
     constructor(props) {
@@ -16,12 +17,38 @@ export default class Home extends Component {
     render() {
         return (
             <div>
-                <div className="position-relative d-flex justify-content-center align-items-center py-5 home-hero">
-                    <div className="col-sm-12 col-md-6 col-lg-12 py-3 text-center px-3 text-center my-5">
-                        <h1>ON THE CLOUD!</h1>
-                        <h2 className="font-weight-light mt-3">Developing, Storing, and Securing</h2>
-                    </div>
-                    <div className="waveWrapper waveAnimation">
+                <div className="position-relative d-flex justify-content-center align-items-center">
+                    <Carousel emulateTouch showThumbs={false} autoPlay interval={4000} useKeyboardArrows showStatus={false}>
+                        <div>
+                            <img src="/images/homecor/cloud.jpg" class="home-hero" />
+                            <p className="legend">
+                                <span className="h1">Up and above the cloud</span><br /><br />
+                                <span className="h5"> "They don't call it the Internet anymore, they call it cloud computing." - Larry Ellison</span>
+                            </p>
+                        </div>
+                        <div>
+                            <img src="/images/homecor/iot.jpg" class="home-hero" />
+                            <p className="legend">
+                                <span className="h1">Connecting the Streams</span><br /><br />
+                                <span className="h5">Computers, Tabs, Phones, Sensors, Social Messaging, and Web - they all have different names but what is common is data</span>
+                            </p>
+                        </div>
+                        <div>
+                            <img src="/images/homecor/analytics.jpg" class="home-hero" />
+                            <p className="legend">
+                                <span className="h1">Descriptive, Prescriptive and Predictive</span><br /><br />
+                                <span className="h5">"Numbers have an important story to tell. They rely on you to give them a voice." – Stephen Few</span>
+                            </p>
+                        </div>
+                        <div>
+                            <img src="/images/homecor/ai.jpg" class="home-hero" />
+                            <p className="legend">
+                                <span className="h1">Bridging the intelligence</span><br /><br />
+                                <span className="h5">"AI will be a foundational tool for creating social good as well as business success." – Mark Hurd, CEO(Oracle)</span>
+                            </p>
+                        </div>
+                    </Carousel>
+                    {/* <div className="waveWrapper waveAnimation">
                         <div className="waveWrapperInner bgTop">
                             <div className="wave waveTop" style={{ backgroundImage: "url('/images/wave-top.png')" }}></div>
                         </div>
@@ -31,78 +58,16 @@ export default class Home extends Component {
                         <div className="waveWrapperInner bgBottom">
                             <div className="wave waveBottom" style={{ backgroundImage: "url('/images/wave-bot.png')" }}></div>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
-                <div>
-                    <div className="d-flex justify-content-center align-self-end pt-5 view-more">
+                {/* <div>
+                    <div className="d-flex justify-content-center align-self-end py-5 view-more">
                         <button className="btn btn-outline-dark rounded" type="button" onClick={() => this.scrollDown()} >Know more</button>
                     </div>
-                    <div className="position-relative divider">
-                        <svg width="100%" height="96px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none" datasrc="assets/images/divider-2.svg">
-                            <path d="M0,0 C16.6666667,66 33.3333333,99 50,99 C66.6666667,99 83.3333333,66 100,0 L100,100 L0,100 L0,0 Z"></path>
-                        </svg>
-                    </div>
-                </div>
-                {/* why this company section */}
-                <section className="bg-primary why-company pb-3">
-                    <div className="container">
-                        <div className="row text-light mb-4">
-                            <div className="col">
-                                <h3 className="h1 mt-4">Why Leading Torch?</h3>
-                            </div>
-                        </div>
-                        <div className="row justify-content-center">
-                            <div className="col-sm-6 col-lg-4">
-                                <div className="card card-sm card-body flex-row align-items-center">
-                                    <img src="/images/whyus/data.png" alt="Data" />
-                                    <div className="ml-3">
-                                        <h6 className="mb-0">Innovative enterprise solutions from data storing to securing</h6>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div className="col-sm-6 col-lg-4">
-                                <div className="card card-sm card-body flex-row align-items-center">
-                                    <img src="/images/whyus/goal.png" alt="Growth" />
-                                    <div className="ml-3">
-                                        <h6 className="mb-0">Developing quality software solutions for your business growth.</h6>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div className="col-sm-6 col-lg-4">
-                                <div className="card card-sm card-body flex-row align-items-center">
-                                    <img src="/images/whyus/team.png" height="64" width="64" alt="Team" />
-                                    <div className="ml-3">
-                                        <h6 className="mb-0">Professional team to handle our services.</h6>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div className="col-sm-6 col-lg-4">
-                                <div className="card card-sm card-body flex-row align-items-center">
-                                    <img src="/images/whyus/time.png" height="64" width="64" alt="Time" />
-                                    <div className="ml-3">
-                                        <h6 className="mb-0">On-time delivery of projects.</h6>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div className="col-sm-6 col-lg-4">
-                                <div className="card card-sm card-body flex-row align-items-center">
-                                    <img src="/images/whyus/save.png" height="64" width="64" alt="Savings" />
-                                    <div className="ml-3">
-                                        <h6 className="mb-0">Cost-effective services with perfect efficiency</h6>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                {/* end off why this company section */}
+                </div> */}
                 {/* services section */}
                 <div className="text-dark my-5 text-center">
-                    <div className="col">
+                    <div className="col py-3">
                         <h3 className="h1">Our services</h3>
                     </div>
                 </div>
