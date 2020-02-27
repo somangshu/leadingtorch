@@ -18,9 +18,7 @@ body {
 }
 
 .home-hero {
-    height: 500px;
-    // background-image: url('/images/hero3.png');
-    // linear-gradient(to top, $primary 20%, #4772e8 80%)
+    height: 600px;
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -279,7 +277,7 @@ input {
         margin-left: -15px;
         padding: 0 15px;
         height: 100px;
-        background: #fff;
+        background: #eee;
         display: flex;
         align-items: center;
     }
@@ -344,7 +342,7 @@ input {
     display: -ms-flexbox;
     display: flex;
     border-top: 1px solid #c7c7c7;
-    background: #fff;
+    background: #eee;
     align-items: center;
     padding: 0 15px;
     color: $text-color;

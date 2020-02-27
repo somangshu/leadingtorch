@@ -43,6 +43,12 @@ export default class Header extends React.Component {
                                 <Link to="/about-us" onClick={this.toggle} className="nav-link">About Us</Link>
                             </li>
                             <li className="nav-item">
+                                <Link to="/team" onClick={this.toggle} className="nav-link">Team</Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link to="/blog" onClick={this.toggle} className="nav-link">Blog</Link>
+                            </li>
+                            <li className="nav-item">
                                 <Link to="/careers" onClick={this.toggle} className="nav-link">Careers</Link>
                             </li>
                             <li className="nav-item">
@@ -57,6 +63,12 @@ export default class Header extends React.Component {
                             </li>
                             <li className="nav-item">
                                 <Link to="/about-us" className="nav-link">About Us</Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link to="/team" className="nav-link">Team</Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link to="/blog" className="nav-link">Blog</Link>
                             </li>
                             <li className="nav-item">
                                 <Link to="/careers" className="nav-link">Careers</Link>

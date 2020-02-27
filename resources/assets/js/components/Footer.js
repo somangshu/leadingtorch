@@ -10,11 +10,11 @@ export default class Footer extends Component {
 
 	render() {
 		return (
-			<div className="bg-primary">
+			<div className="bg-white">
 				<div className="px-3 pt-2">
-					<h4 className="py-3 text-white">Our offices:</h4>
+					<h4 className="py-3 text-dark">Our offices:</h4>
 					<div className="row justify-content-start">
-						<div className="col-12 col-lg-5 col-md-5 d-flex">
+						<div className="col-12 col-lg-4 col-md-4 d-flex">
 							<div className="card card-sm card-body flex-row align-items-center mb-4 box-shadow-ak">
 								<img src="/images/usa.png" width="64px" alt="texas" />
 								<div className="ml-3">
@@ -23,7 +23,7 @@ export default class Footer extends Component {
 							</div>
 						</div>
 
-						<div className="col-12 col-lg-5 col-md-5 d-flex">
+						<div className="col-12 col-lg-4 col-md-4 d-flex">
 							<div className="card card-sm card-body flex-row align-items-center mb-4 box-shadow-ak">
 								<img src="/images/india.png" width="64px" alt="india" />
 								<div className="ml-3">
@@ -34,8 +34,8 @@ export default class Footer extends Component {
 					</div>
 				</div>
 				<div className="px-1 d-flex flex-column flex-lg-row flex-md-row mb-2">
-					<div className="col-12 col-lg-5 col-md-5">
-						<h4 className="py-3 text-white">Email us:</h4>
+					<div className="col-12 col-lg-4 col-md-4">
+						<h4 className="py-3 text-dark">Email us:</h4>
 						<div className="justify-content-start">
 							<div className="card card-sm card-body flex-row align-items-center mb-4 box-shadow-ak">
 								<img src="/images/email-support.png" width="64px" alt="email support" />
@@ -47,8 +47,8 @@ export default class Footer extends Component {
 							</div>
 						</div>
 					</div>
-					<div className="col-12 col-lg-5 col-md-5">
-						<h4 className="py-3 text-white">Contact us:</h4>
+					<div className="col-12 col-lg-4 col-md-4">
+						<h4 className="py-3 text-dark">Contact us:</h4>
 						<div className="justify-content-start">
 							<div className="card card-sm card-body flex-row align-items-center mb-4 box-shadow-ak">
 								<img src="/images/call-support.png" width="64" alt="phone support" />

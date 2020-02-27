@@ -24,6 +24,7 @@ export default class Contact extends Component {
 						</svg>
 					</div>
 				</div>
+				<img src="/images/contact_shape.png" className="position-absolute" style={{ zIndex: '-999', right: 0 }} />
 				<div className="container my-5">
 					<p className="text-left lead text-dark">Are you interested in our services? Or, do you have any query? Leading Torch won’t disappoint anyone. We are here to help you in every possible way. Connect with us now.</p>
 					<h4 className="my-4">We are located at:</h4>

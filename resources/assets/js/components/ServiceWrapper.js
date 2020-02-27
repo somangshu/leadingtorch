@@ -11,7 +11,7 @@ export default class ServiceWrapper extends Component {
 	render() {
 		return (
 			<div>
-				<div className="position-relative contact-hero mb-5" style={{ backgroundImage: 'url("/images/services.jpg")', height: "450px", backgroundSize: "unset" }}>
+				<div className="position-relative contact-hero mb-5" style={{ backgroundImage: 'url("/images/services.jpg")', height: "450px" }}>
 					<div className="col-12 py-5 my-5">
 						<h2 className="font-weight-light text-center" style={{ fontSize: "62px" }}>What we do</h2>
 					</div>
