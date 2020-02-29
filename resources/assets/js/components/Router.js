@@ -24,7 +24,7 @@ const Main = () => (
       <Route path='/services' component={ServiceWrapper} />
       <Route path='/about-us' component={AboutUs} />
       <Route path='/team' component={Team} />
-      <Route path='/blog' component={BlogWrapper} />
+      <Route path='/blogs' component={BlogWrapper} />
       <Route path='/contact-us' component={Contact} />
       <Route path='/careers' component={Careers} />
       <Route path='/service/:slug' component={ServiceDetail} />

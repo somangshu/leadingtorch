@@ -16,18 +16,18 @@ export default class Footer extends Component {
 					<div className="row justify-content-start">
 						<div className="col-12 col-lg-4 col-md-4 d-flex">
 							<div className="card card-sm card-body flex-row align-items-center mb-4 box-shadow-ak">
-								<img src="/images/usa.png" width="64px" alt="texas" />
+								<img src="/images/usa.png" width="54px" alt="texas" />
 								<div className="ml-3">
-									<h6 className="mb-0">Leading Torch, Plano, Texas, US (Headquarters)</h6>
+									<h6 className="h4 mb-0">Leading Torch, Plano, Texas, US (Headquarters)</h6>
 								</div>
 							</div>
 						</div>
 
 						<div className="col-12 col-lg-4 col-md-4 d-flex">
 							<div className="card card-sm card-body flex-row align-items-center mb-4 box-shadow-ak">
-								<img src="/images/india.png" width="64px" alt="india" />
+								<img src="/images/india.png" width="54px" alt="india" />
 								<div className="ml-3">
-									<h6 className="mb-0">Leading Torch, Hyderabad, India</h6>
+									<h6 className="h4 mb-0">Leading Torch, Hyderabad, India</h6>
 								</div>
 							</div>
 						</div>
@@ -38,11 +38,11 @@ export default class Footer extends Component {
 						<h4 className="py-3 text-dark">Email us:</h4>
 						<div className="justify-content-start">
 							<div className="card card-sm card-body flex-row align-items-center mb-4 box-shadow-ak">
-								<img src="/images/email-support.png" width="64px" alt="email support" />
+								<img src="/images/email-support.png" width="54px" alt="email support" />
 								<div className="ml-3">
-									<h6 className="mb-2 text-center">info@leadingtorch.com</h6>
-									<h5 className="text-center">OR</h5>
-									<h6 className="mb-0 text-center">srinivasa_reddy@leadingtorch.com</h6>
+									<h6 className="h4 mb-2 text-center">info@leadingtorch.com</h6>
+									<h5 className="h3 text-center">OR</h5>
+									<h6 className="h4 mb-0 text-center">srinivasa_reddy@leadingtorch.com</h6>
 								</div>
 							</div>
 						</div>
@@ -51,11 +51,11 @@ export default class Footer extends Component {
 						<h4 className="py-3 text-dark">Contact us:</h4>
 						<div className="justify-content-start">
 							<div className="card card-sm card-body flex-row align-items-center mb-4 box-shadow-ak">
-								<img src="/images/call-support.png" width="64" alt="phone support" />
+								<img src="/images/call-support.png" width="54px" alt="phone support" />
 								<div className="ml-3">
-									<h6 className="mb-2 text-center">001 972 372 0202</h6>
-									<h5 className="text-center">OR</h5>
-									<h6 className="mb-0 text-center">091 88869 93470</h6>
+									<h6 className="h4 mb-2 text-center">001 972 372 0202</h6>
+									<h5 className="h3 text-center">OR</h5>
+									<h6 className="h4 mb-0 text-center">091 88869 93470</h6>
 								</div>
 							</div>
 						</div>

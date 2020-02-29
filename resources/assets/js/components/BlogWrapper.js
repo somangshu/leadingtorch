@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import Services from './Services';
 import { Carousel } from 'react-responsive-carousel';
 
 export default class BlogWrapper extends Component {
@@ -33,14 +32,14 @@ export default class BlogWrapper extends Component {
                                 <div className="card-body d-flex flex-column">
                                     <div className="d-flex justify-content-between mb-3">
                                         <div className="text-small d-flex">
-                                            <span className="text-primary text-small mr-2">Technology</span>
-                                            <span className="text-muted text-small">15th January</span>
+                                            <span className="text-primary h4 mr-2">Technology</span>
+                                            <span className="text-muted h4">15th January</span>
                                         </div>
                                     </div>
                                     <Link to="/blog/legal-ai">
                                         <h4 className="text-dark">legal AI: How machine learning is aiding concerning law practitioners</h4>
                                     </Link>
-                                    <p className="flex-grow-1 lead text-small">
+                                    <p className="flex-grow-1 mt-3 h4">
                                         Law firms entrusted with investigating a lot of information and translating rules can boundlessly improve their effectiveness...
                                     </p>
                                 </div>
@@ -54,14 +53,12 @@ export default class BlogWrapper extends Component {
                                 <div className="card-body d-flex flex-column">
                                     <div className="d-flex justify-content-between mb-3">
                                         <div className="text-small d-flex">
-                                            <span className="text-primary text-small mr-2">Technology</span>
-                                            <span className="text-muted text-small">17th January</span>
+                                            <span className="text-primary h4 mr-2">Technology</span>
+                                            <span className="text-muted h4">17th January</span>
                                         </div>
                                     </div>
-                                    <Link to="/blog/automation-engineering">
-                                        <h4 className="text-dark">What is Automation Engineering?</h4>
-                                    </Link>
-                                    <p className="flex-grow-1 lead text-small">
+                                    <Link to="/blog/automation-engineering">What is Automation Engineering?</Link>
+                                    <p className="flex-grow-1 mt-3 h4">
                                         Automation is a set of numerous advances like devices, Electrical, mechanical, Softwares which results in work with no human intercession with incredible productivity and dependability...
                                     </p>
                                 </div>
@@ -75,14 +72,14 @@ export default class BlogWrapper extends Component {
                                 <div className="card-body d-flex flex-column">
                                     <div className="d-flex justify-content-between mb-3">
                                         <div className="text-small d-flex">
-                                            <span className="text-primary text-small mr-2">Technology</span>
-                                            <span className="text-muted text-small">15th January</span>
+                                            <span className="text-primary h4 mr-2">Technology</span>
+                                            <span className="text-muted h4">15th January</span>
                                         </div>
                                     </div>
                                     <Link to="/blog/legal-ai">
                                         <h4 className="text-dark">legal AI: How machine learning is aiding concerning law practitioners</h4>
                                     </Link>
-                                    <p className="flex-grow-1 lead text-small">
+                                    <p className="flex-grow-1 mt-3 h4">
                                         Law firms entrusted with investigating a lot of information and translating rules can boundlessly improve their effectiveness...
                                     </p>
                                 </div>
@@ -96,14 +93,14 @@ export default class BlogWrapper extends Component {
                                 <div className="card-body d-flex flex-column">
                                     <div className="d-flex justify-content-between mb-3">
                                         <div className="text-small d-flex">
-                                            <span className="text-primary text-small mr-2">Technology</span>
-                                            <span className="text-muted text-small">17th January</span>
+                                            <span className="text-primary h4 mr-2">Technology</span>
+                                            <span className="text-muted h4">17th January</span>
                                         </div>
                                     </div>
                                     <Link to="/blog/automation-engineering">
                                         <h4 className="text-dark">What is Automation Engineering?</h4>
                                     </Link>
-                                    <p className="flex-grow-1 lead text-small">
+                                    <p className="flex-grow-1 mt-3 h4">
                                         Automation is a set of numerous advances like devices, Electrical, mechanical, Softwares which results in work with no human intercession with incredible productivity and dependability...
                                     </p>
                                 </div>
@@ -117,14 +114,14 @@ export default class BlogWrapper extends Component {
                                 <div className="card-body d-flex flex-column">
                                     <div className="d-flex justify-content-between mb-3">
                                         <div className="text-small d-flex">
-                                            <span className="text-primary text-small mr-2">Technology</span>
-                                            <span className="text-muted text-small">15th January</span>
+                                            <span className="text-primary h4 mr-2">Technology</span>
+                                            <span className="text-muted h4">15th January</span>
                                         </div>
                                     </div>
                                     <Link to="/blog/legal-ai">
                                         <h4 className="text-dark">legal AI: How machine learning is aiding concerning law practitioners</h4>
                                     </Link>
-                                    <p className="flex-grow-1 lead text-small">
+                                    <p className="flex-grow-1 mt-3 h4">
                                         Law firms entrusted with investigating a lot of information and translating rules can boundlessly improve their effectiveness...
                                     </p>
                                 </div>
@@ -138,14 +135,14 @@ export default class BlogWrapper extends Component {
                                 <div className="card-body d-flex flex-column">
                                     <div className="d-flex justify-content-between mb-3">
                                         <div className="text-small d-flex">
-                                            <span className="text-primary text-small mr-2">Technology</span>
-                                            <span className="text-muted text-small">17th January</span>
+                                            <span className="text-primary h4 mr-2">Technology</span>
+                                            <span className="text-muted h4">17th January</span>
                                         </div>
                                     </div>
                                     <Link to="/blog/automation-engineering">
                                         <h4 className="text-dark">What is Automation Engineering?</h4>
                                     </Link>
-                                    <p className="flex-grow-1 lead text-small">
+                                    <p className="flex-grow-1 mt-3 h4">
                                         Automation is a set of numerous advances like devices, Electrical, mechanical, Softwares which results in work with no human intercession with incredible productivity and dependability...
                                     </p>
                                 </div>
@@ -159,14 +156,14 @@ export default class BlogWrapper extends Component {
                                 <div className="card-body d-flex flex-column">
                                     <div className="d-flex justify-content-between mb-3">
                                         <div className="text-small d-flex">
-                                            <span className="text-primary text-small mr-2">Technology</span>
-                                            <span className="text-muted text-small">15th January</span>
+                                            <span className="text-primary h4 mr-2">Technology</span>
+                                            <span className="text-muted h4">15th January</span>
                                         </div>
                                     </div>
                                     <Link to="/blog/legal-ai">
                                         <h4 className="text-dark">legal AI: How machine learning is aiding concerning law practitioners</h4>
                                     </Link>
-                                    <p className="flex-grow-1 lead text-small">
+                                    <p className="flex-grow-1 mt-3 h4">
                                         Law firms entrusted with investigating a lot of information and translating rules can boundlessly improve their effectiveness...
                                     </p>
                                 </div>
@@ -180,14 +177,14 @@ export default class BlogWrapper extends Component {
                                 <div className="card-body d-flex flex-column">
                                     <div className="d-flex justify-content-between mb-3">
                                         <div className="text-small d-flex">
-                                            <span className="text-primary text-small mr-2">Technology</span>
-                                            <span className="text-muted text-small">17th January</span>
+                                            <span className="text-primary h4 mr-2">Technology</span>
+                                            <span className="text-muted h4">17th January</span>
                                         </div>
                                     </div>
                                     <Link to="/blog/automation-engineering">
                                         <h4 className="text-dark">What is Automation Engineering?</h4>
                                     </Link>
-                                    <p className="flex-grow-1 lead text-small">
+                                    <p className="flex-grow-1 mt-3 h4">
                                         Automation is a set of numerous advances like devices, Electrical, mechanical, Softwares which results in work with no human intercession with incredible productivity and dependability...
                                     </p>
                                 </div>

@@ -135,15 +135,15 @@ export default class ServiceDetail extends Component {
 						</div>
 					</div>
 					<div className="container my-5">
-						<p className="text-left lead text-dark mb-5">{selected.intro}</p>
-						<p className="text-left lead text-dark mb-3">{selected.pointerIntro}</p>
+						<p className="text-left a-text-20 mb-5">{selected.intro}</p>
+						<p className="text-left a-text-20 mb-3">{selected.pointerIntro}</p>
 						<ul className="mb-5">
 							{selected.pointers.map((val, key) => {
-								return <li key={key} className="lead">{val}</li>
+								return <li key={key} className="a-text-20">{val}</li>
 							})}
 						</ul>
 						<img src={selected.fillerImage} className="img-fluid img-thumbnail mb-5" alt={selected.header}></img>
-						<p className="text-left lead text-dark mb-3">{selected.summary}</p>
+						<p className="text-left a-text-20 mb-3">{selected.summary}</p>
 					</div>
 				</div>}
 			</div>

@@ -2,11 +2,11 @@
 
 @font-face {
     font-family: FFMarkWebProRegular;
-    src: url(/fonts/3825D1_0_0.eot);
-    src: url(/fonts/3825D1_0_0.eot?#iefix) format("embedded-opentype"),
-        url(/fonts/3825D1_0_0.woff2) format("woff2"),
-        url(/fonts/3825D1_0_0.woff) format("woff"),
-        url(/fonts/3825D1_0_0.ttf) format("truetype");
+    src: url(../fonts/3825D1_0_0.eot);
+    src: url(../fonts/3825D1_0_0.eot?#iefix) format("embedded-opentype"),
+        url(../fonts/3825D1_0_0.woff2) format("woff2"),
+        url(../fonts/3825D1_0_0.woff) format("woff"),
+        url(../fonts/3825D1_0_0.ttf) format("truetype");
     font-weight: 400;
     font-style: normal;
     font-display: swap
@@ -14,11 +14,11 @@
 
 @font-face {
     font-family: FFMarkWebProLight;
-    src: url(/fonts/3825D1_1_0.eot);
-    src: url(/fonts/3825D1_1_0.eot?#iefix) format("embedded-opentype"),
-        url(/fonts/3825D1_1_0.woff2) format("woff2"),
-        url(/fonts/3825D1_1_0.woff) format("woff"),
-        url(/fonts/3825D1_1_0.ttf) format("truetype");
+    src: url(../fonts/3825D1_1_0.eot);
+    src: url(../fonts/3825D1_1_0.eot?#iefix) format("embedded-opentype"),
+        url(../fonts/3825D1_1_0.woff2) format("woff2"),
+        url(../fonts/3825D1_1_0.woff) format("woff"),
+        url(../fonts/3825D1_1_0.ttf) format("truetype");
     font-weight: 400;
     font-style: normal;
     font-display: swap
@@ -26,11 +26,11 @@
 
 @font-face {
     font-family: FFMarkWebProMedium;
-    src: url(/fonts/3825D1_2_0.eot);
-    src: url(/fonts/3825D1_2_0.eot?#iefix) format("embedded-opentype"),
-        url(/fonts/3825D1_2_0.woff2) format("woff2"),
-        url(/fonts/3825D1_2_0.woff) format("woff"),
-        url(/fonts/3825D1_2_0.ttf) format("truetype");
+    src: url(../fonts/3825D1_2_0.eot);
+    src: url(../fonts/3825D1_2_0.eot?#iefix) format("embedded-opentype"),
+        url(../fonts/3825D1_2_0.woff2) format("woff2"),
+        url(../fonts/3825D1_2_0.woff) format("woff"),
+        url(../fonts/3825D1_2_0.ttf) format("truetype");
     font-weight: 400;
     font-style: normal;
     font-display: swap
@@ -38,11 +38,11 @@
 
 @font-face {
     font-family: FFMarkWebProBold;
-    src: url(/fonts/3825D1_3_0.eot);
-    src: url(/fonts/3825D1_3_0.eot?#iefix) format("embedded-opentype"),
-        url(/fonts/3825D1_3_0.woff2) format("woff2"),
-        url(/fonts/3825D1_3_0.woff) format("woff"),
-        url(/fonts/3825D1_3_0.ttf) format("truetype");
+    src: url(../fonts/3825D1_3_0.eot);
+    src: url(../fonts/3825D1_3_0.eot?#iefix) format("embedded-opentype"),
+        url(../fonts/3825D1_3_0.woff2) format("woff2"),
+        url(../fonts/3825D1_3_0.woff) format("woff"),
+        url(../fonts/3825D1_3_0.ttf) format("truetype");
     font-weight: 400;
     font-style: normal;
     font-display: swap

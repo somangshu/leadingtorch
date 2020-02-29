@@ -29,7 +29,7 @@ export default class Team extends Component {
                         <img className="pr-1" src="/images/comp/carrier2.jpg" />
                     </div>
                 </Carousel>
-                <img src="/images/team_shape.png" className="position-absolute" style={{ zIndex: '-999' }} />
+                {/* <img src="/images/team_shape.png" className="position-absolute" style={{ zIndex: '-999' }} /> */}
                 <div className="container py-5">
                     <div className="row mb-4">
                         <div className="col-md-6 offset-md-3 col-lg-6 offset-lg-3 col-12 py-5">
