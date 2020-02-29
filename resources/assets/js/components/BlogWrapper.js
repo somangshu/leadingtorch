@@ -15,7 +15,7 @@ export default class BlogWrapper extends Component {
                 <div className="container-fluid">
                     <div className="row">
                         <div className="col-lg-5 col-md-5 col-12 d-flex align-items-center justify-content-center">
-                            <h3 className="h1 text-dark">Try to climb high</h3>
+                            <h3 className="h1 text-dark a-title-40">Try to climb high</h3>
                         </div>
                         <div className="col-lg-7 col-md-7 col-12">
                             <img src="/images/blog_cover.jpg" className="w-100" alt="Image" />

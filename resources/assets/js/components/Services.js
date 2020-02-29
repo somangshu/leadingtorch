@@ -11,7 +11,7 @@ export default class Services extends Component {
     render() {
         return (
             <div>
-                <section className="m-content-wi m-content-wi--right ">
+                <section className="m-content-wi m-content-wi--dark">
                     <div className="container">
                         <div className="row">
                             <div className="col-12 col-sm-5 m-content-wi__col-left">
@@ -25,69 +25,108 @@ export default class Services extends Component {
                                             Up and above the cloud
                                         </h3> </div>
                                     <div className="scroll-animation scroll-animation__ease-in-from-bottom active">
-                                        <div className="text-muted pb-3 m-content-wi__intro">
-                                            <p style={{ lineHeight: "1.5rem" }}>They don't call it the Internet anymore, they call it cloud computing</p>
-                                            <ul className="list">
-                                                <li>Cloud Architecture</li>
-                                                <li>Serverless Architecture</li>
-                                                <li>Establish DevOps</li>
-                                                <li>Cloud Application Development</li>
-                                                <li>Containerization</li>
-                                                <li>Disaster Recovery</li>
-                                                <li>Application & Data Security</li>
-                                            </ul>
+                                        <div className="a-text-20">
+                                            They don't call it the Internet anymore, they call it cloud computing
+                                        </div>
+                                        <div className="row m-image-wc__lists">
+                                            <div className="col-6">
+                                                <ul>
+                                                    <li className="m-image-wc__list-item">
+                                                        Cloud Architecture
+                                                    </li>
+                                                    <li className="m-image-wc__list-item">
+                                                        Serverless Architecture
+                                                    </li>
+                                                    <li className="m-image-wc__list-item">
+                                                        Cloud Application Development
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div className="col-6">
+                                                <ul>
+                                                    <li className="m-image-wc__list-item">
+                                                        Containerization
+                                                    </li>
+                                                    <li className="m-image-wc__list-item">
+                                                        Disaster Recovery
+                                                    </li>
+                                                    <li className="m-image-wc__list-item">
+                                                        Application & Data Security
+                                                    </li>
+                                                </ul>
+                                            </div>
                                         </div>
                                     </div>
-                                    <Link to="/service/cloud-solutions" className="btn btn-outline-primary">More Details</Link>
+                                    <Link to="/service/cloud-solutions" title="View all industries" className="a-bt">
+                                        Learn more
+                                    </Link>
                                 </header>
                             </div>
                             <div className="col-12 col-sm-7">
-                                <div className="m-content-wi__image" style={{ left: '2rem' }}>
+                                <div className="m-content-wi__image">
                                     <img className="b-lazy b-loaded" alt="airplane" src="/images/homecor/cloud.jpg" />
                                 </div>
                             </div>
                         </div>
                     </div>
                 </section>
-                <section className="m-content-wi m-content-wi--left">
-                    <div className="container">
-                        <div className="row">
-                            <div className="col-12 col-sm-7">
-                                <div className="m-content-wi__image" style={{ right: '2rem' }}>
-                                    <img className="b-lazy b-loaded" alt="airplane" src="/images/homecor/iot.jpg" />
+                <div>
+                    <section className="m-image-wc">
+                        <div className="container">
+                            <div className="row">
+                                <div className="col-12 col-sm-6 h-text-align-center">
+                                    <div className="m-image-wc__image m-image-wc__image--top">
+                                        <img className="b-lazy b-loaded" alt="Two people talking" src="/images/homecor/iot.jpg" />
+                                    </div>
                                 </div>
-                            </div>
-                            <div className="col-12 col-sm-5 m-content-wi__col-left">
-                                <header className="m-content-wi__header scroll-animation scroll-animation__ease-in-from-bottom active">
-                                    <div className="scroll-animation scroll-animation__ease-in-from-bottom active">
+                                <div className="m-image-wc__content col-12 col-sm-6 scroll-animation scroll-animation__ease-in-from-bottom active">
+                                    <header>
                                         <h2 className="a-si h-text-bold">
-                                            <Link to="/service/data-platforms" className="text-primary">IoT</Link>
+                                            <Link to="/service/data-platforms" className="a-link--wline">IoT</Link>
                                         </h2>
+                                        <h3 className="a-title-40 ">
+                                            Connecting the Streams
+                                        </h3>
+                                    </header>
+                                    <div className="a-text-20">
+                                        <p>Computers, Tabs, Phones, Sensors, Social Messaging, and Web - they all have different names but what is common is data</p>
                                     </div>
-                                    <div className="scroll-animation scroll-animation__ease-in-from-bottom active">
-                                        <h3 className="a-title-40">Connecting the Streams</h3>
-                                    </div>
-                                    <div className="scroll-animation scroll-animation__ease-in-from-bottom active">
-                                        <div className="text-muted pb-3 m-content-wi__intro">
-                                            <p style={{ lineHeight: "1.5rem" }}>Computers, Tabs, Phones, Sensors, Social Messaging, and Web - they all have different names but what is common is data</p>
-                                            <ul className="list">
-                                                <li>Establish IoT Hub</li>
-                                                <li>Connect Devices to the Hub</li>
-                                                <li>Industrial IoT</li>
-                                                <li>Connected Vehicles</li>
-                                                <li>Time-Series Insights</li>
-                                            </ul>
+                                    <div className="scroll-animation scroll-animation__list-ease-in-from-bottom active">
+                                        <div className="row m-image-wc__lists">
+                                            <div className="col-6">
+                                                <ul>
+                                                    <li className="m-image-wc__list-item">
+                                                        Establish IoT Hub
+                                                    </li>
+                                                    <li className="m-image-wc__list-item">
+                                                        Connect Devices to the Hub
+                                                    </li>
+                                                    <li className="m-image-wc__list-item">
+                                                        Industrial IoT
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div className="col-6">
+                                                <ul>
+                                                    <li className="m-image-wc__list-item">
+                                                        Connected Vehicles
+                                                    </li>
+                                                    <li className="m-image-wc__list-item">
+                                                        Time-Series Insights
+                                                    </li>
+                                                </ul>
+                                            </div>
                                         </div>
                                     </div>
-                                    <Link to="/service/data-platforms" className="btn btn-outline-primary">
-                                        More Details
+                                    <Link to="/service/data-platforms" title="Learn more" className="a-bt">
+                                        Learn more
                                     </Link>
-                                </header>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </section>
-                <section className="m-content-wi m-content-wi--right">
+                    </section>
+                </div>
+                <section className="m-content-wi m-content-wi--dark">
                     <div className="container">
                         <div className="row">
                             <div className="col-12 col-sm-5 m-content-wi__col-left">
@@ -99,71 +138,122 @@ export default class Services extends Component {
                                     <div className="scroll-animation scroll-animation__ease-in-from-bottom active">
                                         <h3 className="a-title-40 ">
                                             Descriptive, Prescriptive and Predictive
-                                    </h3> </div>
+                                        </h3> </div>
                                     <div className="scroll-animation scroll-animation__ease-in-from-bottom active">
-                                        <div className="text-muted pb-3 m-content-wi__intro">
-                                            <p style={{ lineHeight: "1.5rem" }}>Numbers have an important story to tell. They rely on you to give them a voice." – Stephen Few</p>
-                                            <ul className="list">
-                                                <li>Enterprise Data Warehouses</li>
-                                                <li>Domain specific Datamarts</li>
-                                                <li>Data Governance</li>
-                                                <li>Master Data Management</li>
-                                                <li>Self-Service Analytics</li>
-                                                <li>Big Data Analytics</li>
-                                                <li>Cloud Warehouses</li>
-                                            </ul>
+                                        <div className="a-text-20">
+                                            Numbers have an important story to tell. They rely on you to give them a voice." – Stephen Few
+                                        </div>
+                                        <div className="row m-image-wc__lists">
+                                            <div className="col-6">
+                                                <ul>
+                                                    <li className="m-image-wc__list-item">
+                                                        Enterprise Data Warehouses
+                                                    </li>
+                                                    <li className="m-image-wc__list-item">
+                                                        Domain specific Datamarts
+                                                    </li>
+                                                    <li className="m-image-wc__list-item">
+                                                        Data Governance
+                                                    </li>
+                                                    <li className="m-image-wc__list-item">
+                                                        Master Data Management
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div className="col-6">
+                                                <ul>
+                                                    <li className="m-image-wc__list-item">
+                                                        Self-Service Analytics
+                                                    </li>
+                                                    <li className="m-image-wc__list-item">
+                                                        Big Data Analytics
+                                                    </li>
+                                                    <li className="m-image-wc__list-item">
+                                                        Cloud Warehouses
+                                                    </li>
+                                                </ul>
+                                            </div>
                                         </div>
                                     </div>
-                                    <Link to="/service/business-intelligence" className="btn btn-outline-primary">More Details</Link>
+                                    <Link to="/service/business-intelligence" title="View all industries" className="a-bt">
+                                        Learn more
+                                    </Link>
                                 </header>
                             </div>
                             <div className="col-12 col-sm-7">
-                                <div className="m-content-wi__image" style={{ left: '2rem' }}>
+                                <div className="m-content-wi__image">
                                     <img className="b-lazy b-loaded" alt="airplane" src="/images/homecor/analytics.jpg" />
                                 </div>
                             </div>
                         </div>
                     </div>
                 </section>
-                <section className="m-content-wi m-content-wi--left">
-                    <div className="container">
-                        <div className="row">
-                            <div className="col-12 col-sm-7">
-                                <div className="m-content-wi__image" style={{ right: '2rem' }}>
-                                    <img className="b-lazy b-loaded" alt="airplane" src="/images/homecor/ai.jpg" />
+                <div>
+                    <section className="m-image-wc">
+                        <div className="container">
+                            <div className="row">
+                                <div className="col-12 col-sm-6 h-text-align-center">
+                                    <div className="m-image-wc__image m-image-wc__image--top">
+                                        <img className="b-lazy b-loaded" alt="Two people talking" src="/images/homecor/ai.jpg" />
+                                    </div>
                                 </div>
-                            </div>
-                            <div className="col-12 col-sm-5 m-content-wi__col-left">
-                                <header className="m-content-wi__header scroll-animation scroll-animation__ease-in-from-bottom active">
-                                    <div className="scroll-animation scroll-animation__ease-in-from-bottom active">
+                                <div className="m-image-wc__content col-12 col-sm-6 scroll-animation scroll-animation__ease-in-from-bottom active">
+                                    <header>
                                         <h2 className="a-si h-text-bold">
-                                            <Link to="/service/machine-learning" title="industries " className="text-primary">AI</Link>
+                                            <Link to="/service/machine-learning" className="a-link--wline">AI</Link>
                                         </h2>
+                                        <h3 className="a-title-40 ">
+                                            Bridging the intelligence
+                                        </h3>
+                                    </header>
+                                    <div className="a-text-20">
+                                        <p>AI will be a foundational tool for creating social good as well as business success." – Mark Hurd, CEO - Oracle</p>
                                     </div>
-                                    <div className="scroll-animation scroll-animation__ease-in-from-bottom active">
-                                        <h3 className="a-title-40">Bridging the intelligence</h3>
-                                    </div>
-                                    <div className="scroll-animation scroll-animation__ease-in-from-bottom active">
-                                        <div className="text-muted pb-3 m-content-wi__intro">
-                                            <p style={{ lineHeight: "1.5rem" }}>AI will be a foundational tool for creating social good as well as business success." – Mark Hurd, CEO - Oracle</p>
-                                            <ul className="list">
-                                                <li>Continuously Learning Agents</li>
-                                                <li>Robotic Process Automation</li>
-                                                <li>Chatbots</li>
-                                                <li>Image Recognition</li>
-                                                <li>Sequence-2-Sequence Models</li>
-                                                <li>Regression Models</li>
-                                                <li>Classification Models</li>
-                                                <li>UnSupervised Learning</li>
-                                            </ul>
+                                    <div className="scroll-animation scroll-animation__list-ease-in-from-bottom active">
+                                        <div className="row m-image-wc__lists">
+                                            <div className="col-6">
+                                                <ul>
+                                                    <li className="m-image-wc__list-item">
+                                                        Continuously Learning Agents
+                                                    </li>
+                                                    <li className="m-image-wc__list-item">
+                                                        Robotic Process Automation
+                                                    </li>
+                                                    <li className="m-image-wc__list-item">
+                                                        Chatbots
+                                                    </li>
+                                                    <li className="m-image-wc__list-item">
+                                                        Image Recognition
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div className="col-6">
+                                                <ul>
+                                                    <li className="m-image-wc__list-item">
+                                                        Sequence-2-Sequence Models
+                                                    </li>
+                                                    <li className="m-image-wc__list-item">
+                                                        Regression Models
+                                                    </li>
+                                                    <li className="m-image-wc__list-item">
+                                                        Classification Models
+                                                    </li>
+                                                    <li className="m-image-wc__list-item">
+                                                        UnSupervised Learning
+                                                    </li>
+                                                </ul>
+                                            </div>
                                         </div>
                                     </div>
-                                    <Link to="/service/machine-learning" className="btn btn-outline-primary">More Details</Link>
-                                </header>
+                                    <Link to="/service/machine-learning" title="Learn more" className="a-bt">
+                                        Learn more
+                                    </Link>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </section>
+                    </section>
+                </div>
+                {/* //older section */}
             </div>
             // <section className="pt-0 mb-5">
             //     <div className="container pb-4">

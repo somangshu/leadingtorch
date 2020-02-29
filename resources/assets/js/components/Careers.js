@@ -17,7 +17,7 @@ export default class Careers extends Component {
                 <div className="container">
                     <div className="row align-items-center">
                         <div className="col-lg-5 col-md-5 col-12">
-                            <h2 className="font-weight-light text-center px-4 py-2">The future depends on what you do today <br /> - Mahatma Gandhi</h2>
+                            <h2 className="font-weight-light a-title-40 text-center px-4 py-2">The future depends on what you do today <br /> - Mahatma Gandhi</h2>
                         </div>
                         <div className="col-lg-7 col-md-7 col-12">
                             <img src="/images/careers.jpg" className="w-100" />
@@ -88,27 +88,96 @@ export default class Careers extends Component {
                         </div>
                     </div>
                 </section>
-                <section className="m-content-wi m-content-wi--right ">
+                <section className="m-content-wi m-content-wi--dark">
                     <div className="container">
                         <div className="row">
                             <div className="col-12 col-sm-5 m-content-wi__col-left">
                                 <header className="m-content-wi__header scroll-animation scroll-animation__ease-in-from-bottom active">
                                     <div className="scroll-animation scroll-animation__ease-in-from-bottom active">
-                                        <h3 className="font-weight-light h4">
+                                        <div className="a-text-20">
                                             Leading Torch has continuously been in trend since its entry into the industry. All this is because of our team members that stood for the company in every possible way. Working with Leading Torch will be fun as well as challenging. We always hire the best talents, nurture them, and make them the best professionals in the industry.
-                                        </h3>
+                                        </div>
                                     </div>
                                 </header>
                             </div>
                             <div className="col-12 col-sm-7">
-                                <div className="m-content-wi__image" style={{ left: '2rem' }}>
+                                <div className="m-content-wi__image">
                                     <img className="b-lazy b-loaded" alt="airplane" src="/images/comp/carrier1.jpg" />
                                 </div>
                             </div>
                         </div>
                     </div>
                 </section>
-                <section className="m-content-wi m-content-wi--left">
+                <div>
+                    <section className="m-image-wc">
+                        <div className="container">
+                            <div className="row">
+                                <div className="col-12 col-sm-6 h-text-align-center">
+                                    <div className="m-image-wc__image m-image-wc__image--top">
+                                        <img className="b-lazy b-loaded" alt="Two people talking" src="/images/comp/carrier2.jpg" />
+                                    </div>
+                                </div>
+                                <div className="m-image-wc__content col-12 col-sm-6 scroll-animation scroll-animation__ease-in-from-bottom active">
+                                    <header>
+                                        <h3 className="a-title-40 ">
+                                            Join our team
+                                        </h3>
+                                    </header>
+                                    <div className="scroll-animation scroll-animation__list-ease-in-from-bottom active">
+                                        <div className="row m-image-wc__lists">
+                                            <div className="col-6">
+                                                <ul>
+                                                    <li className="m-image-wc__list-item">
+                                                        <h5>Full Stack Developer</h5>
+                                                        <h5 className="font-weight-light text-muted">Development</h5>
+                                                    </li>
+                                                    <li className="m-image-wc__list-item">
+                                                        <h5>DevOps Engineer</h5>
+                                                        <h5 className="font-weight-light text-muted">Cloud</h5>
+                                                    </li>
+                                                    <li className="m-image-wc__list-item">
+                                                        <h5>Data Engineer</h5>
+                                                        <h5 className="font-weight-light text-muted">Analytics</h5>
+                                                    </li>
+                                                    <li className="m-image-wc__list-item">
+                                                        <h5>MDM Developer</h5>
+                                                        <h5 className="font-weight-light text-muted">Development</h5>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div className="col-6">
+                                                <ul>
+                                                    <li className="m-image-wc__list-item">
+                                                        <h5>Cloud Architect</h5>
+                                                        <h5 className="font-weight-light text-muted">Cloud</h5>
+                                                    </li>
+                                                    <li className="m-image-wc__list-item">
+                                                        <h5>Test Automation Engineer</h5>
+                                                        <h5 className="font-weight-light text-muted">QA</h5>
+                                                    </li>
+                                                    <li className="m-image-wc__list-item">
+                                                        <h5>AWS Engineer</h5>
+                                                        <h5 className="font-weight-light text-muted">Cloud</h5>
+                                                    </li>
+                                                    <li className="m-image-wc__list-item">
+                                                        <h5>Azure Engineer</h5>
+                                                        <h5 className="font-weight-light text-muted">Cloud</h5>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div className="col-12 mt-5">
+                                                <p className="mb-2 h4">To apply, email us at:</p>
+                                                <p className="mb-1 font-weight-light h5">recruitement@leadingtorch.com,</p>
+                                                <p className="mb-0 font-weight-light h5">razi.ahmed@leadingtorch.com</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                {/* <section className="m-content-wi m-content-wi--left">
                     <div className="container">
                         <div className="row">
                             <div className="col-12 col-sm-7">
@@ -166,7 +235,7 @@ export default class Careers extends Component {
                             </div>
                         </div>
                     </div>
-                </section>
+                </section> */}
             </div>
         );
     }

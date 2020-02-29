@@ -1,21 +1,8 @@
-// Fonts
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600');
-
 // Variables
 @import 'variables';
 
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
-
-body {
-    font-size: 1rem;
-    background: #fafafa;
-    font-family: 'Open Sans', sans-serif;
-
-    .quote {
-        font-size: 1.1rem;
-    }
-}
 
 .home-hero {
     height: 600px;
@@ -187,42 +174,6 @@ input {
     border-color: #bababa !important;
     outline: none !important;
     box-shadow: 0 0 0 0 !important;
-}
-
-@include media-breakpoint-up(sm) {
-    body {
-        font-size: 1rem;
-
-        .quote {
-            font-size: 1.3rem;
-        }
-    }
-}
-
-@include media-breakpoint-up(md) {
-    body {
-        font-size: 1.1rem;
-
-        .quote {
-            font-size: 1.4rem;
-        }
-    }
-}
-
-@include media-breakpoint-up(lg) {
-    body {
-        font-size: 1.2rem;
-
-        .quote {
-            font-size: 1.5rem;
-        }
-
-        .card-container {
-            align-self: center;
-            justify-content: center;
-            overflow: hidden;
-        }
-    }
 }
 
 @media (max-width: 350px) {
@@ -402,7 +353,6 @@ input {
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    font-family: Roboto, sans-serif;
 
     .content {
         color: #fff;
@@ -426,156 +376,6 @@ input {
     .description {
         font-size: 2vh;
         padding-bottom: 4vh;
-    }
-}
-
-// //the cloud animation
-// @keyframes move_wave {
-//     0% {
-//         transform: translateX(0) translateZ(0) scaleY(1);
-//     }
-
-//     50% {
-//         transform: translateX(-25%) translateZ(0) scaleY(0.55);
-//     }
-
-//     100% {
-//         transform: translateX(-50%) translateZ(0) scaleY(1);
-//     }
-// }
-
-// .waveWrapper {
-//     overflow: hidden;
-//     position: absolute;
-//     left: 0;
-//     right: 0;
-//     bottom: 0;
-//     top: 0;
-//     margin: auto;
-//     z-index: 0;
-// }
-
-// .waveWrapperInner {
-//     position: absolute;
-//     width: 100%;
-//     overflow: hidden;
-//     height: 100%;
-//     bottom: -1px;
-// }
-
-// .bgTop {
-//     z-index: 15;
-//     opacity: 0.5;
-// }
-
-// .bgMiddle {
-//     z-index: 10;
-//     opacity: 0.75;
-// }
-
-// .bgBottom {
-//     z-index: 5;
-// }
-
-// .wave {
-//     position: absolute;
-//     left: 0;
-//     width: 200%;
-//     height: 100%;
-//     background-repeat: repeat no-repeat;
-//     background-position: 0 bottom;
-//     transform-origin: center bottom;
-// }
-
-// .waveTop {
-//     background-size: 55% 110px;
-// }
-
-// .waveAnimation .waveTop {
-//     animation: move-wave 3s;
-//     -webkit-animation: move-wave 3s;
-//     -webkit-animation-delay: 1s;
-//     animation-delay: 1s;
-// }
-
-// .waveMiddle {
-//     background-size: 50% 120px;
-// }
-
-// .waveAnimation .waveMiddle {
-//     animation: move_wave 10s linear infinite;
-// }
-
-// .waveBottom {
-//     background-size: 50% 100px;
-// }
-
-// .waveAnimation .waveBottom {
-//     animation: move_wave 15s linear infinite;
-// }
-
-.m-content-wi {
-    position: relative;
-    margin-bottom: 1rem;
-
-    @media (min-width: 768px) {
-        &::before {
-            content: "";
-            display: block;
-            background-color: #eff2f2;
-            height: 100%;
-            top: 0;
-            float: left;
-            width: 60%;
-            position: absolute;
-        }
-
-        &--right {
-            &::before {
-                left: 0;
-            }
-        }
-
-        &--left {
-            &::before {
-                right: 0;
-            }
-        }
-    }
-
-    &__header {
-        padding-top: 7rem;
-        padding-bottom: 7rem;
-        min-height: 42rem;
-    }
-
-    &__intro {
-        line-height: 1.8rem;
-        font-size: 0.9rem
-    }
-
-    &__image {
-        max-width: none;
-        margin-top: -4rem;
-        position: relative;
-
-        @media (min-width: 768px) {
-            position: absolute;
-            margin-top: 6rem;
-            margin-bottom: 10.1rem;
-            // height: calc(100% - 12.2rem);
-            width: 100%;
-        }
-
-        img {
-            height: auto;
-            width: 100%;
-        }
-    }
-
-    .list {
-        columns: 2;
-        padding: 15px;
     }
 }
 
